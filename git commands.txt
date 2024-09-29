@@ -1,0 +1,28 @@
+nextjs library
+
+GitHub:code collaboration tool(to work with local repo we use git tool)
+	(or)
+application coolaboration tool
+---divided into 2 segments
+1)local repo
+2)cloud repo
+****initialize local repo-----git init*****
+****to set user details /configure globally****
+git config --global user.name "vvbhavanii"
+git config --global user.email "bhavanivanukuru@kluniversity.in"
+*****create one file "users.java"(untracked file)****
+
+2 stages----
+1)untracked area(in development area it is referred as unstaged)
+****creating/modifying/deleting the file****(these operations technically as untracked) this should be changed from unteacked to staged files
+****
+git add .
+git commit -m "msg"
+*****
+2)tracked area(staged)
+
+***push local repo to cloud repo****
+
+git remote add origin url
+
+git push -u origin master (-u(upstream)=uploading/moving content byte by byte)
